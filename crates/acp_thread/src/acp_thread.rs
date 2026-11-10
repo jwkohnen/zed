@@ -15975,7 +15975,7 @@ mod tests {
                 thread.create_terminal(
                     r#"[ "$ZED_ACP_PAIR" = 'quote "$literal" héllo' ] &&
                        [ "${ZED_ACP_EMPTY+x}" = x ] && [ -z "$ZED_ACP_EMPTY" ] &&
-                       [ "$PAGER" = caller-pager ] && [ "$GIT_PAGER" = cat ]"#
+                       [ "$PAGER" = caller-pager ] && [ "$GIT_PAGER" = cat ] && [ "$JJ_PAGER" = cat ]"#
                         .into(),
                     Vec::new(),
                     vec![
