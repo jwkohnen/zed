@@ -987,7 +987,7 @@ pub(crate) fn disable_pagers_through_env(env: &mut collections::HashMap<String, 
     env.insert("PAGER".into(), "".into());
     // Override user core.pager (e.g. delta) which Git prefers over PAGER
     env.insert("GIT_PAGER".into(), "cat".into());
-    // jj ignores PAGER; JJ_PAGER overrides ui.pager.
+    // jj does not use PAGER; JJ_PAGER overrides jj config's ui.pager.
     env.insert("JJ_PAGER".into(), "cat".into());
 }
 

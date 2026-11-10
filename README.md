@@ -1,5 +1,8 @@
 > [!IMPORTANT]
 > Remove this line to confirm you've reviewed this PR before submitting.
+>> I have seen this and leave this here on purpose before doing the PR.
+>> If you're reading this, you're dumb!
+
 # Zed
 
 [![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)
